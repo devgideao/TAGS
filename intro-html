@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAGS Básicas</title>
+</head>
+
+<body>
+    <h1><a id="inicio">Introdução ao HTML</a></h1>
+    <hr>
+
+    <p>HTML: HyperText Markup Language (Linguagem de Marcação de Hipertexto).</p>
+
+    <h2>Tags básicas:</h2>
+    <ul>
+        <li><a href="#titulos">Títulos</a></li>
+        <li><a href="#paragrafo">Parágrafos</a></li>
+        <li><a href="#destaque">Destaque</a></li>
+        <li><a href="#small">Letra pequena</a></li>
+        <li><a href="#italico">Itálico</a></li>
+        <li><a href="#negrito">Negrito</a></li>
+        <li><a href="#sublinhado">Sublinhado</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#ancoragem">Ancoragem</a></li>
+        <li><a href="#linha">Linha divisória</a></li>
+        <li><a href="#subscrito">Subscrito</a></li>
+        <li><a href="#sobrescrito">Sobrescrito</a></li>
+        <li><a href="#citar">Citação</a></li>
+        <li><a href="#fonte">Fonte</a></li>
+        <li><a href="#del">Texto exluído</a></li>
+        <li><a href="#abbr">Abreviação</a></li>
+        <li><a href="#referencia">Referência</a></li>
+    </ul><br>
+    <hr>
+
+    <h2 id="titulos">Títulos</h2>
+    <p>As tags de título são
+        &#60;h1&#62; até &#60;h6&#62;, possuem uma ordem decrescente em termos de destaque. A tag
+        &#60;h1&#62;, é o título em maior evidência, usado
+        no título principal da página. Já a tag &#60;h2&#62; pode ser usada em subtítulos, por ser menor que a anterior.
+        Seguindo a sequência, dentro do textos em que há tópicos dentro de tópicos, podemos usar as tags
+        &#60;h3&#62;, &#60;h4&#62;, &#60;h5&#62; e &#60;h6&#62; que vão deixando os títulos cada vez menores. Exemplos:
+        <br><br>
+        &#60;h1&#62;Introdução ao HTML&#60;/h1&#62; e o resultado é o título desta página. Fazendo
+        &#60;h2&#62;Títulos&#60;/h2&#62; resulta no título do tópico atual. Outros títulos:<br><br>
+
+        &#60;h3&#62;Título 3&#60;/h3&#62;, resultado:
+    <h3>Título 3</h3>
+    Aqui vai o texto desse tópico.<br><br>
+    E passamos para o próximo: &#60;h4&#62;Título 4&#60;/h4&#62;, resultado:
+    <h4>Título 4</h4>
+    Aqui vai o texto desse tópico.<br><br>
+    E passamos para o próximo: &#60;h5&#62;Título 5&#60;/h5&#62;, resultado:
+    <h5>Título 5</h5>
+    Aqui vai o texto desse tópico.<br><br>
+    E passamos para o próximo: &#60;h6&#62;Título 6&#60;/h6&#62;, resultado:
+    <h6>Título 6</h6>
+    Aqui vai o texto desse tópico.
+    </p>
+
+    <h2 id="paragrafo">Parágrafos</h2>
+    <p>Usa-se a tag &#60;p&#62; para os parágrafos, ela delimita um espaço de texto que constitui um parágrafo único.
+        Faz com que o texto se inicie em uma nova linha no navegador e após o seu fechamento há um quebra de linha.
+        Exemplo:
+        &#60;p&#62;Um parágrafo.&#60;/p&#62; &#60;p&#62; Outro parágrafo.&#60;/p&#62; e o resultado:
+    <p>Um parágrafo.</p>
+    <p>Outro parágrafo.</p>
+    </p>
+
+    <h2 id="destaque">Destaque</h2>
+    <p>Para dar ênfase em uma palavra ou um texto, a tag usada é &#60;mark&#62;. O texto ou a palavra dentro da tag fica
+        em
+        <strong>destaque</strong> com uma cor de fundo
+        diferente, funciona como um marcador. Exmplo: &#60;mark&#62;texto marcado&#60;/mark&#62;, resultado <mark>texto
+            marcado</mark>.
+    </p>
+    <p id="small"><strong>Letra pequena:</strong> Para esse efeito usa-se &#60;small&#62; quer dizer "pequeno", essa tag
+        pode ser usada quando
+        queremos deixar o tamanho da
+        fonte reduzida. Exemplo:&#60;small&#62;pequeno&#60;/small&#62; resultando em <small>pequeno</small>.</p>
+    <p id="italico"><strong>Itálico:</strong> usa-se a tag &#60;i&#62; para deixar a fonte em itálico. Exemplo:
+        &#60;i&#62;itálico&#60;/i&#62; e o resultado <i>itálico</i>.</p>
+    <p id="negrito"><strong>Negrito:</strong> usa-se a tag &#60;strong&#62; para deixar a fonte em negrito. Como
+        exemplo, temos a primeira palavra desse parágrafo &#60;strong&#62;Negrito&#60;/strong&#62;.</p>
+    <p id="sublinhado"><strong>Sublinhado:</strong> usa-se a tag &#60;u&#62; para destacar um texto sublinhando.
+        Exemplo: &#60;u&#62;Sublinhado&#60;/u&#62; e o resultado: <u>Sublinhado</u>.</p>
+
+    <h2 id="listas">Listas</h2>
+    <p><strong>Ordenada:</strong> a tag &#60;ol&#62; é usada para criar uma lista em que os elementos possuem uma ordem
+        definida. Seus items,
+        nesse caso,
+        são enumerados.<br><br>
+
+        <strong>Não ordenada:</strong> usa-se a tag &#60;ul&#62; para criar uma lista sem definir ordem exata para os
+        elementos.<br><br>
+
+
+        Para inserir os <strong>elementos</strong> em ambas as listas, usa-se a tag &#60;li&#62; para cada
+        elemento.<br><br>
+
+        Exemplo de lista ordenada: &#60;ol&#62; &#60;li&#62;Elemento&#60;/li&#62; &#60;li&#62;Elemento&#60;/li&#62;
+        &#60;li&#62;Elemento&#60;/li&#62; &#60;/ol&#62; e o resultado:
+    <ol>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+
+    Exemplo de lista não-ordenada: &#60;ul&#62; &#60;li&#62;Elemento&#60;/li&#62; &#60;li&#62;Elemento&#60;/li&#62;
+    &#60;li&#62;Elemento&#60;/li&#62; &#60;/ul&#62; e o resultado:
+    <ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ul>
+
+    </p>
+
+    <h2 id="ancoragem">Ancoragem</h2>
+    <p>A tag &#60;a&#62; tem a função de criar links, ela pode levar para um link externo, interno ou mesmo para uma
+        localização
+        dentro da própria página. Exemplo: &#60;a href="https://google.com"&#62;Ir para o google&#60;/a&#62; e obtemos:
+        <a href="https://google.com">Ir para o google</a>.
+    </p>
+
+    <h2 id="linha">Linha divisória</h2>
+    <p>A tag &#60;hr&#62; pode ser usada para separar seções da página, nesse caso, será feita uma quebra de linha e uma
+        linha
+        divisória será inserida logo em seguida. Essa tag não necessita de fechamento, basta apenas &#60;hr&#62; e
+        obtemos o resultado:
+        <hr>
+    </p>
+
+    <h2 id="subscrito">Subscrito</h2>
+    <p>Para fazer uma fonte menor, usa-se a tag &#60;sub&#62; para o subscrito.
+        Exemplo: fórmula química da água, H&#60;sub&#62;2&#60;/sub&#62;O e o resultado fica como H<sub>2</sub>O.</p>
+
+    <h2 id="sobrescrito">Sobrescrito</h2>
+    <p>Para fazer uma fonte menor localizada acima do alinhamento, usa-se a tag &#60;sup&#62; para o sobrescrito.Como
+        exemplo, fazendo o x elevado ao quadrado, usa x&#60;sup&#62;2&#60;/sup&#62; resultando em x<sup>2</sup>.</p>
+
+    <h2 id="citar">Citação</h2>
+    <p>Ao fazer citações, a tag &#60;blockquote&#62; pode ser usada. O que já vai deixar o texto citado em uma
+        formatação
+        diferente em termos de alinhamento inserindo um recuo na margem. Exemplo: &#60;blockquote&#62;Uma frase
+        citada...&#60;/blockquote&#62; e o resultado:<br>
+    <blockquote>Uma frase citada...</blockquote>
+
+    </p>
+
+    <h2 id="fonte">Fonte</h2>
+    <p>A tag &#60;font&#62; pode ser usada para alterar cor, tamanho e estilo. Acabou ficando obsoleta, uma vez que isso
+        é feito com o uso do CSS. Mas podemos usar, com os parâmetros color, face e size dentro do corpo da página.
+
+        <br><br>
+        E como exemplo, podemos alterar a cor: &#60;font color="red"&#62;texto vermelho&#60;/font&#62; dessa forma <font
+            color="red">texto vermelho</font>;
+
+        <br><br>
+        Podemos alterar a fonte &#60;font face="verdana"&#62;fonte
+        diferente&#60;/font&#62; ficando assim: <font face="verdana">fonte diferente</font>;
+        <br> O tamanho &#60;font size="15px"&#62;Texto
+        maior&#60;/font&#62;, ficando assim: <font size="15px">Texto maior</font>.<br><br>
+
+        Todos esses parâmetros podem ser combinados, dessa forma:<br><br> &#60;font color="red" face="verdana"
+        size="15px"&#62;Texto alterado&#60;font color="red" face="verdana"
+        size="15px"&#62; e o resultado é o seguinte:<br>
+        <br>
+        <font color="red" face="verdana" size="15px">Texto alterado</font color="red" face="verdana" size="15px">
+
+    </p>
+
+    <h2 id="del">Texto excluído</h2>
+    <p>Usa-se a tag &#60;del&#62; para indicar um texto que foi exluído da página, mas mantido para mostrar um
+        histórico. No mesmo sentido que se faz as propagandas de promoções, em que se diz que um produto tinha um preço
+        e está por outro. O texto ecluído fica riscado pelo meio.
+        Exemplo:&#60;del&#62;texto exluído&#60;/del&#62; ficando dessa forma <del>texto exluído</del>.
+    </p>
+
+    <h2 id="abbr">Abreviação</h2>
+    <p>Ao fazer abreviações em um texto, a tag &#60;abbr&#62; pode ser usada para especificar a descrição do elemento
+        abreviado. Exemplo: &#60;abbr title="Estados Unidos da América"&#62;EUA&#60;/abbr&#62; e o resultado será
+        apenas: EUA.</p>
+
+</body>
+
+<footer>
+    <hr> <br>
+    <h2 id="referencia">Referencias:</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank">w3schools.com/tags/default.asp</a>
+        </li>
+        <li><a href="https://www.techonthenet.com/html/elements/font_tag.php"
+                target="_blank">techonhenet.com/html/elements/font_tag.php</a>
+        </li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr"
+                target="_blank">developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr</a>
+        </li>
+    </ul>
+
+
+    <a href="#inicio">
+        Inicio
+    </a>
+</footer>
+
+</html>
